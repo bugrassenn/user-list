@@ -41,15 +41,18 @@ header {
 }
 
 .user-picture {
-  height: 128px;
-  width: 128px;
   margin-right: 10px;
   cursor: pointer;
 }
 .user-picture > img {
   border-radius: 50%;
+  text-align: center;
 }
 
 .user-info {
   margin-left: 10px;
+}
+
+.user-mail {
+  min-width: 350px;
 }

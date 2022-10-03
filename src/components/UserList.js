@@ -9,6 +9,7 @@ const UserList = () => {
     const response = await axios.get("https://randomuser.me/api/?results=5");
     setUsers(response.data.results);
   };
+
   useEffect(() => {
     fetchUsers();
   }, []);
@@ -27,5 +28,4 @@ const UserList = () => {
     </div>
   );
 };
-
 export default UserList;
